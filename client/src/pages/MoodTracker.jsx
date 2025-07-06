@@ -94,6 +94,7 @@ export default function MoodTracker() {
     setNote("");
     setEditId(null);
   };
+console.log(moods);
 
   return (
     <div className="space-y-6">
@@ -158,9 +159,10 @@ export default function MoodTracker() {
   </h2>
      <div className="mt-8 flex justify-center">
       
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-6xl px-4">
+  <div className="flex justify-center items-center min-h-screen px-4 py-8">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
     {loading ? (
-      <p className="text-white text-center col-span-full w-full">Loading moods...</p>
+      <p className="text-white text-center col-span-full">Loading moods...</p>
     ) : moods?.length > 0 ? (
       <AnimatePresence>
         {[...moods].reverse().map((mood) => (
@@ -170,35 +172,45 @@ export default function MoodTracker() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.3 }}
-            className="bg-white/10 backdrop-blur-md p-4 rounded-lg text-white shadow relative text-center"
+            className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:shadow-xl backdrop-blur-sm p-6 rounded-2xl text-white shadow-md relative text-center transition-all duration-300"
           >
-            <div className="text-4xl">{emojis[mood.mood_level]}</div>
-            <div className="mt-2 font-semibold capitalize">{mood.mood_type}</div>
-            <div className="text-sm text-gray-300">Level: {mood.mood_level}</div>
-            {mood.note && (
-              <div className="text-sm mt-1 italic text-gray-200">"{mood.note}"</div>
-            )}
-            <div className="flex justify-center gap-2 mt-4">
+            <div className="text-5xl mb-3">{emojis[mood.mood_level]}</div>
+            <h3 className="text-lg font-bold capitalize mb-1">{mood.mood_type}</h3>
+            <p className="text-sm text-gray-300 mb-1">
+              <span className="font-semibold text-indigo-400">Level:</span> {mood.mood_level}
+            </p>
+            <p className="text-sm text-gray-300 mb-4">
+              <span className="font-semibold text-indigo-400">📅 Date:</span>{" "}
+              {new Date(mood.created_at).toLocaleDateString("en-GB", {
+                year: "numeric",
+                month: "short",
+                day: "numeric",
+              })}
+            </p>
+            <div className="flex justify-center gap-3 mt-4">
               <button
                 onClick={() => handleEdit(mood)}
-                className="text-sm px-2 py-1 bg-yellow-400/20 hover:bg-yellow-400/30 rounded"
+                className="text-sm px-3 py-1.5 bg-yellow-500/20 text-yellow-200 hover:bg-yellow-500/30 rounded-lg transition"
               >
-                Edit
+                ✏️ Edit
               </button>
               <button
                 onClick={() => handleDelete(mood)}
-                className="text-sm px-2 py-1 bg-red-400/20 hover:bg-red-400/30 rounded"
+                className="text-sm px-3 py-1.5 bg-red-500/20 text-red-200 hover:bg-red-500/30 rounded-lg transition"
               >
-                Delete
+                🗑️ Delete
               </button>
             </div>
           </motion.div>
         ))}
       </AnimatePresence>
     ) : (
-      <p className="text-white text-center col-span-full w-full">No moods yet</p>
+      <p className="text-white text-center col-span-full">No moods yet</p>
     )}
   </div>
+</div>
+
+
 </div>
 <DeleteModal
   isOpen={deleteShowmodel}
