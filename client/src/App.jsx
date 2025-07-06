@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import MoodTracker from "./pages/MoodTracker";
 import Journal from "./pages/JournalEntry";
-import Goals from "./pages/Goals";
+import Goals from "./pages/goals";
 import Home from "./pages/home";
 import Profile from "./pages/Profile";
 import Signup from "./pages/Signup";
