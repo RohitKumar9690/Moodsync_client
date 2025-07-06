@@ -1,0 +1,16 @@
+@import "tailwindcss";
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 text-white;
+}
+.glassy-icon-btn {
+  @apply w-10 h-10 flex items-center justify-center rounded-full backdrop-blur-sm bg-white/10 border border-white/20 text-white transition hover:bg-white/20 hover:scale-105 active:scale-95;
+}
+
+.glassy-icon-btn:hover .tooltip {
+  opacity: 1;
+  transform: translateY(-120%);
+}
+
+.tooltip {
+  @apply absolute text-xs text-white bg-black/80 px-2 py-1 rounded shadow transition opacity-0 pointer-events-none z-10;
+}

@@ -1,0 +1,117 @@
+/* Base */
+.checkbox-wrapper-31:hover .check {
+  stroke-dashoffset: 0;
+  
+}
+
+.checkbox-wrapper-31:hover svg .background {
+  fill: #5e3e837f !important;
+  transition: fill 0.3s ease;
+}
+
+.checkbox-wrapper-31 {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.checkbox-wrapper-31 input[type=checkbox] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  opacity: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.checkbox-wrapper-31 svg .background {
+  fill: #6f4d9c;
+  transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 svg .stroke {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-dashoffset: 100;
+  stroke-dasharray: 100;
+  transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 svg .check {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+  stroke-dashoffset: 22;
+  stroke-dasharray: 22;
+  transition: ease all 0.6s;
+}
+
+/* Completed (Green) */
+.checkbox-wrapper-31.completed input[type=checkbox]:checked + svg .background {
+  fill: #4caf50;
+}
+
+.checkbox-wrapper-31.completed input[type=checkbox]:checked + svg .stroke,
+.checkbox-wrapper-31.completed input[type=checkbox]:checked + svg .check {
+  stroke-dashoffset: 0;
+}
+
+/* Skipped (Red) */
+.checkbox-wrapper-31.skipped input[type=checkbox]:checked + svg .background {
+  fill: #f44336;
+}
+
+.checkbox-wrapper-31.skipped input[type=checkbox]:checked + svg .stroke,
+.checkbox-wrapper-31.skipped input[type=checkbox]:checked + svg .check {
+  stroke-dashoffset: 0;
+}
+
+/* Pending (Blue) */
+.checkbox-wrapper-31.pending input[type=checkbox]:checked + svg .background {
+  fill: #2196f3;
+}
+
+.checkbox-wrapper-31.pending input[type=checkbox]:checked + svg .stroke,
+.checkbox-wrapper-31.pending input[type=checkbox]:checked + svg .check {
+  stroke-dashoffset: 0;
+}
+.checkbox-wrapper-31::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+}
+
+.checkbox-wrapper-31:hover::after {
+  opacity: 1;
+}
+
+/* Custom label based on class */
+.checkbox-wrapper-31.completed:hover::after {
+  content: 'Done';
+}
+.checkbox-wrapper-31.skipped:hover::after {
+  content: 'Skipped';
+}
+.checkbox-wrapper-31.pending:hover::after {
+  content: 'Pending';
+}
