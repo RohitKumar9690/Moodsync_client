@@ -18,7 +18,6 @@ MoodSync is a modern fullstack application designed to help users track their **
 ---
 ## 🛠️ Technologies Used
 
-## 🛠️ Technologies Used
 
 ### 🎨 Frontend
 
@@ -32,9 +31,8 @@ MoodSync is a modern fullstack application designed to help users track their **
 - ![Recharts](https://img.shields.io/badge/Recharts-FF0000?logo=recharts&logoColor=white)
 - ![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?logo=react&logoColor=white)
 - ![React Hot Toast](https://img.shields.io/badge/Hot_Toast-FF8800?logo=react&logoColor=white)
-- 🧠 @headlessui/react
-- 🦸 @heroicons/react
-- ⚡ @tailwindcss/vite
+- 🧠 HeadlessUI
+- 🦸 Heroicons
 
 ### ⚙️ Backend
 
@@ -43,4 +41,4 @@ MoodSync is a modern fullstack application designed to help users track their **
 - ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 - 🔐 JWT Authentication
 - 🛡️ Bcrypt Password Hashing
-- 🗃️ SQLAlchemy ORM
+- 🗃️ SQLAlchemy
