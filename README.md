@@ -8,7 +8,6 @@ MoodSync is a modern fullstack application designed to help users track their **
 
 ![image](https://github.com/user-attachments/assets/1769624e-228b-499b-a177-397553c3a888)
 ![Screenshot 2025-07-08 125838](https://github.com/user-attachments/assets/426794fe-38e3-42f3-8539-d60ee7a31b80)
-![Screenshot 2025-07-08 125822](https://github.com/user-attachments/assets/1296026d-8708-469c-a1ea-0025c2e7262d)
 ![Screenshot 2025-07-08 130001](https://github.com/user-attachments/assets/2847da4a-82d7-4c9e-bd0c-6c0326e05c60)
 ![Screenshot 2025-07-08 125953](https://github.com/user-attachments/assets/b38f808f-9d45-4629-96f1-ddf4cc8c7d17)
 ![Screenshot 2025-07-08 125859](https://github.com/user-attachments/assets/c443d3d7-687a-4c11-8aef-eea15ec79b01)
