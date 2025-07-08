@@ -20,11 +20,11 @@ MoodSync is a modern fullstack application designed to help users track their **
 
 ### 🚀 Frontend
 
-- ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-- ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
-- ![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?logo=framer&logoColor=white)
-- ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-593D88?logo=redux&logoColor=white)
-- ![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)
-- ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
+ ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+ ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?logo=framer&logoColor=white)
+ ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-593D88?logo=redux&logoColor=white)
+ ![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)
+ ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
 
 
