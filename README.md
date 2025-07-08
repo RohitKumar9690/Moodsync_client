@@ -56,3 +56,23 @@ MoodSync is a modern fullstack application designed to help users track their **
 - JWT tokens are issued upon login
 - Tokens auto-expire after defined TTL
 - Expired or invalid tokens auto-redirect users to `/login`
+  
+---
+| Dashboard                                                                  | Habits                                                                | Habits Insight                                                                         |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| ![dash](![moodsyn netlify app_login(iPhone 12 Pro) (2)](https://github.com/user-attachments/assets/8f11d89a-931e-42b2-9ee3-7f22df3d7d13)) | ![Habits](![moodsyn netlify app_login(iPhone 12 Pro) (5)](https://github.com/user-attachments/assets/498bcd19-f75c-4395-acf8-6e5c689c9542)) | ![Habit Insight](![moodsyn netlify app_login(iPhone 12 Pro) (3)](https://github.com/user-attachments/assets/2c41d1a2-9e30-4116-afbc-3940b8aaba7d)) |
+
+## 🚀 Getting Started
+
+```bash
+# Backend
+cd server
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+# Frontend
+cd client
+npm install
+npm run dev
