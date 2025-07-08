@@ -27,7 +27,6 @@ MoodSync is a modern fullstack application designed to help users track their **
 - ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-593D88?logo=redux&logoColor=white)
 - ![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)
 - ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
-- ![Date-fns](https://img.shields.io/badge/Date--fns-262626?logo=javascript&logoColor=white)
 - ![Recharts](https://img.shields.io/badge/Recharts-FF0000?logo=recharts&logoColor=white)
 - ![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?logo=react&logoColor=white)
 - ![React Hot Toast](https://img.shields.io/badge/Hot_Toast-FF8800?logo=react&logoColor=white)
