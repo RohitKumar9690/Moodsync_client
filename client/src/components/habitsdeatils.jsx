@@ -25,6 +25,7 @@ import HabitModal from "../utils/modals/editHabitModal";
 import EditEntryModal from "../utils/modals/editEntriesModal";
 import GlassyCalendar from "./calender";
 import { showSuccess } from "../utils/toast";
+import Loader from "../utils/loaders/loader2";
 
 const COLORS = ["#4ade80", "#f87171", "#facc15"];
 
@@ -103,7 +104,7 @@ export default function HabitDetails() {
     showSuccess(`${selectedHabit.title} updated successfully!`);
   };
 
-  if (!selectedHabit) return <div className="text-white text-center p-10 text-xl">Loading Habit...</div>;
+  if (!selectedHabit) return <div className="text-white text-center p-10 text-xl"><Loader/></div>;
 
   const { title = "", type = "", start_date = "", end_date = "", progress = {} } = selectedHabit;
 
