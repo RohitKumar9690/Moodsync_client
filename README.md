@@ -41,3 +41,19 @@ MoodSync is a modern fullstack application designed to help users track their **
 - 🔐 JWT Authentication
 - 🛡️ Bcrypt Password Hashing
 - 🗃️ SQLAlchemy
+
+ ---
+## 💎 UI & UX
+
+- 🌌 **Glassmorphism Design** — iOS 16 inspired aesthetics
+- 🌠 **Animated UI** using Framer Motion
+- 📱 **Mobile-first Responsive Design**
+
+---
+
+## 🔐 Authentication Logic
+
+- JWT tokens are issued upon login
+- Tokens auto-expire after defined TTL
+- Expired or invalid tokens auto-redirect users to `/login`
+- Protected routes via `get_current_user` in FastAPI
