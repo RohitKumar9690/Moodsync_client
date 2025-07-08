@@ -1,6 +1,12 @@
 # 🧠 MoodSync – Mood, Habit & Journal Tracker
 
 MoodSync is a modern fullstack application designed to help users track their **moods**, **habits**, **goals**, and **daily journals** in a beautifully animated and intuitive interface.
+---
+##screenshot
+![MoodSync-Habits-Tracker (1)](https://github.com/user-attachments/assets/b1c73f0d-39c8-4bfd-a50f-e9b427bcefa5)
+![Screenshot 2025-07-08 125953](https://github.com/user-attachments/assets/2cca31c5-ac46-4373-b4c1-d1e5eb325762)
+
+
 
 ---
 
