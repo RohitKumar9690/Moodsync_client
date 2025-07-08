@@ -20,16 +20,13 @@ MoodSync is a modern fullstack application designed to help users track their **
 
 ### 🚀 Frontend
 
-- **React 19** – Core UI library
-- **Tailwind CSS** – Utility-first CSS framework for rapid styling
-- **Framer Motion** – Animation library for smooth transitions and effects
-- **Redux Toolkit** – State management with simplified Redux setup
-- **React Router DOM** – Declarative routing for React apps
-- **Axios** – Promise-based HTTP client for API communication
-- **Recharts** – Charting library for visualizing progress
-- **React Icons** – Icon integration with Font Awesome, Material Icons, etc.
-- **React Hot Toast** – Clean, customizable toast notifications
-- **@headlessui/react** – Accessible UI components with full styling control
-- **@heroicons/react** – Heroicon SVG components used alongside Headless UI
-- **@tailwindcss/vite** – Vite plugin for seamless Tailwind integration
-- **Tailwind CSS v4.1.10** – Latest utility-first CSS version for modern UI
+| Technology             | Description                                        |
+|------------------------|----------------------------------------------------|
+| ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) | UI library for building user interfaces |
+| ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css&logoColor=white) | Utility-first CSS framework for styling |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?logo=framer&logoColor=white) | Animations and transitions |
+| ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-593D88?logo=redux&logoColor=white) | State management for React apps |
+| ![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white) | Routing solution for React |
+| ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white) | Promise-based HTTP client |
+
+
