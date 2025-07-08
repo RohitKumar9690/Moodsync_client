@@ -3,35 +3,19 @@
 MoodSync is a modern fullstack application designed to help users track their **moods**, **habits**, **goals**, and **daily journals** in a beautifully animated and intuitive interface.
 ---
 
-## screenshot
-- ### 📝 Sign Up
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/fb7ec26c-4c93-4a87-a4ba-07060df0f406" width="600" alt="Sign Up Screenshot">
-</p>
-
-<p align="center"><b>Sign UP</b></p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1769624e-228b-499b-a177-397553c3a888" width="600" alt="Sign Up Screenshot">
-</p>
-<p align="center"><b>Log in</b></p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b1c73f0d-39c8-4bfd-a50f-e9b427bcefa5" width="600" alt="Sign Up Screenshot">
-</p>
-<p align="center"><b>Dashboard</b></p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2847da4a-82d7-4c9e-bd0c-6c0326e05c60" width="600" alt="Sign Up Screenshot">
-</p>
-<p align="center"><b>Profile Page</b></p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b38f808f-9d45-4629-96f1-ddf4cc8c7d17" width="600" alt="Sign Up Screenshot">
-</p>
-<p align="center"><b>Habit Page</b></p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c443d3d7-687a-4c11-8aef-eea15ec79b01" width="600" alt="Sign Up Screenshot">
-</p>
-<p align="center"><b>Goals Page</b></p>
+✨ Screenshots
+📝 Sign Up
+<p align="center"> <img src="https://github.com/user-attachments/assets/fb7ec26c-4c93-4a87-a4ba-07060df0f406" width="600" alt="Sign Up Screenshot"/> </p>
+🔐 Log In
+<p align="center"> <img src="https://github.com/user-attachments/assets/1769624e-228b-499b-a177-397553c3a888" width="600" alt="Login Screenshot"/> </p>
+📊 Dashboard
+<p align="center"> <img src="https://github.com/user-attachments/assets/b1c73f0d-39c8-4bfd-a50f-e9b427bcefa5" width="600" alt="Dashboard Screenshot"/> </p>
+👤 Profile Page
+<p align="center"> <img src="https://github.com/user-attachments/assets/2847da4a-82d7-4c9e-bd0c-6c0326e05c60" width="600" alt="Profile Screenshot"/> </p>
+✅ Habit Tracker
+<p align="center"> <img src="https://github.com/user-attachments/assets/b38f808f-9d45-4629-96f1-ddf4cc8c7d17" width="600" alt="Habit Page Screenshot"/> </p>
+🎯 Goals Page
+<p align="center"> <img src="https://github.com/user-attachments/assets/c443d3d7-687a-4c11-8aef-eea15ec79b01" width="600" alt="Goals Page Screenshot"/> </p>
 
 ---
 
