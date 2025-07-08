@@ -56,7 +56,6 @@ const Profile = () => {
               : "No mood tracked yet"}
           </p>
         </div>
-<Dotspinloader/>
         {/* About Me */}
         <div>
           <h3 className="text-lg font-semibold mb-2">🧠 About Me</h3>
