@@ -4,8 +4,52 @@ MoodSync is a modern fullstack application designed to help users track their **
 ---
 
 ## ✨ Screenshots
-<table align="center"> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/fb7ec26c-4c93-4a87-a4ba-07060df0f406" width="300" alt="Sign Up" /> <br /><b>📝 Sign Up</b> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/1769624e-228b-499b-a177-397553c3a888" width="300" alt="Login" /> <br /><b>🔐 Log In</b> </td> </tr> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/b1c73f0d-39c8-4bfd-a50f-e9b427bcefa5" width="300" alt="Dashboard" /> <br /><b>📊 Dashboard</b> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/2847da4a-82d7-4c9e-bd0c-6c0326e05c60" width="300" alt="Profile Page" /> <br /><b>👤 Profile</b> </td> </tr> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/b38f808f-9d45-4629-96f1-ddf4cc8c7d17" width="300" alt="Habit Page" /> <br /><b>✅ Habit Tracker</b> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/c443d3d7-687a-4c11-8aef-eea15ec79b01" width="300" alt="Goals Page" /> <br /><b>🎯 Goals</b> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/502cddc6-1dd0-43fc-b48f-9d0d104db742" width="300" alt="Insight Page" /> <br /><b>✅ Habit Insight</b></tr> </table>
-![image](https://github.com/user-attachments/assets/502cddc6-1dd0-43fc-b48f-9d0d104db742)
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/fb7ec26c-4c93-4a87-a4ba-07060df0f406" width="280" alt="Sign Up" /><br />
+      <b>📝 Sign Up</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1769624e-228b-499b-a177-397553c3a888" width="280" alt="Login" /><br />
+      <b>🔐 Log In</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b1c73f0d-39c8-4bfd-a50f-e9b427bcefa5" width="280" alt="Dashboard" /><br />
+      <b>📊 Dashboard</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/2847da4a-82d7-4c9e-bd0c-6c0326e05c60" width="280" alt="Profile Page" /><br />
+      <b>👤 Profile</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b38f808f-9d45-4629-96f1-ddf4cc8c7d17" width="280" alt="Habit Page" /><br />
+      <b>✅ Habits</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c443d3d7-687a-4c11-8aef-eea15ec79b01" width="280" alt="Goals Page" /><br />
+      <b>🎯 Goals</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/502cddc6-1dd0-43fc-b48f-9d0d104db742" width="280" alt="Habit Insight" /><br />
+      <b>📈 Habit Insight</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3f954b4a-463f-4d15-82f6-f2978184c9d8" width="280" alt="Mood Page" /><br />
+      <b>😊 Mood Tracking</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1bba047b-edf2-42ac-bea2-fa3820d53fd3" width="280" alt="Journal Page" /><br />
+      <b>📔 Journal</b>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
