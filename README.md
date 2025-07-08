@@ -44,7 +44,7 @@ MoodSync is a modern fullstack application designed to help users track their **
  ---
 ## 💎 UI & UX
 
-- 🌌 **Glassmorphism Design** — iOS 16 inspired aesthetics
+- 🌌 **Glassmorphism Design** — iOS 18 inspired aesthetics
 - 🌠 **Animated UI** using Framer Motion
 - 📱 **Mobile-first Responsive Design**
 
