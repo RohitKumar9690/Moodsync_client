@@ -52,7 +52,13 @@ MoodSync is a modern fullstack application designed to help users track their **
 
 
 ---
+<p align="center">
+  <a href="https://moodsyn.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐 Live Demo-MoodSync-green?style=for-the-badge" alt="Live Demo" />
+  </a>
+</p>
 
+---
 ## ✨ Features
 
 - 📝 Journal Logging with Mood Association
