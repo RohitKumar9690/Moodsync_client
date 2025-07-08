@@ -5,7 +5,7 @@ export const createJournal = createAsyncThunk(
     async (journalData, { rejectWithValue }) => {
         try {
             const response = await axios.post("/journals/", journalData);
-            // console.log(response.data);
+            console.log(response.data);
             
             return response.data;
         } catch (error) {

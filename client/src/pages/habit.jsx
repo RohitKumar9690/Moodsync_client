@@ -145,7 +145,7 @@ export default function Habbit() {
         className="px-6 py-2 bg-white/10 border border-white/20 text-white rounded-xl hover:bg-white/20 transition"
         onClick={() => setShowModal(true)}
       >
-        ➕ Add Habit
+        ➕ Add Custom Habit
       </button>
     </div>
 

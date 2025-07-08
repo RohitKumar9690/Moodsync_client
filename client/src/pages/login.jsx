@@ -6,6 +6,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { loginUser } from "../hooks/userhook";
 import { showError, showSuccess } from "../utils/toast";
+import Dotspinloader from "../utils/loaders/dotspinloader";
+
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -84,7 +86,7 @@ const Login = () => {
             className="w-full bg-gradient-to-r from-purple-700 to-blue-500 text-white font-semibold py-2 rounded-md hover:from-blue-500 hover:to-purple-700 transition"
             disabled={loading}
           >
-            {loading ? "Loading..." : "Login"}
+            {loading ? <Dotspinloader/>: "Login"}
           </button>
         </form>
 

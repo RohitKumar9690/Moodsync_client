@@ -5,6 +5,7 @@ import MicrosoftLogo from "../assets/Microsoft.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { createUser } from "../hooks/userhook";
+import Dotspinloader from "../utils/loaders/dotspinloader";
 
 const Signup = () => {
   const dispatch = useDispatch();
@@ -128,7 +129,7 @@ const Signup = () => {
             className="w-full bg-gradient-to-r from-purple-700 to-blue-500 text-white font-semibold py-2 rounded-md hover:from-blue-500 hover:to-purple-700 transition"
             disabled={loading}
           >
-            {loading ? "Registering..." : "Register"}
+            {loading ? <Dotspinloader/> : "Register"}
           </button>
         </form>
 

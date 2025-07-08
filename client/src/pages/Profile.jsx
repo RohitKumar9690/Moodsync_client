@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { deleteUser, logoutUser } from "../hooks/userhook";
 import { useNavigate } from "react-router-dom";
 import { showSuccess } from "../utils/toast";
+import Dotspinloader from "../utils/loaders/dotspinloader";
 
 const Profile = () => {
   const emojis = {
@@ -55,7 +56,7 @@ const Profile = () => {
               : "No mood tracked yet"}
           </p>
         </div>
-
+<Dotspinloader/>
         {/* About Me */}
         <div>
           <h3 className="text-lg font-semibold mb-2">🧠 About Me</h3>

@@ -10,6 +10,7 @@ import { getMoods } from "../hooks/moodhook";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import DeleteModal from "../utils/modals/deleteModal";
+import Loader from "../utils/loaders/loader2";
 
 
 
@@ -137,7 +138,7 @@ export default function JournalEntry() {
             disabled={loading}
             className="w-full bg-indigo-500 hover:bg-indigo-600 py-2 rounded-lg text-white font-semibold transition disabled:opacity-50"
           >
-            {loading ? "Saving..." : "Save Entry"}
+          Save Entry
           </button>
           {editId && (
             <button
@@ -167,7 +168,7 @@ export default function JournalEntry() {
       {/* Journal List */}
       <div>
         <h3 className="text-2xl font-semibold text-white text-center mb-6">📝 Recent Journals</h3>
-        <div className="flex justify-center px-4">
+        {loading ? <Loader /> :<div className="flex justify-center px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
             <AnimatePresence>
               {journals?.length > 0 ? (
@@ -234,7 +235,8 @@ export default function JournalEntry() {
               )}
             </AnimatePresence>
           </div>
-        </div>
+        </div>}
+        
       </div>
     </div>
   );

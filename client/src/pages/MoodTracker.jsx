@@ -4,6 +4,7 @@ import { createMood, getMoods, deleteMood, updateMood } from "../hooks/moodhook"
 import { motion, AnimatePresence } from "framer-motion";
 import DeleteModal from "../utils/modals/deleteModal";
 import { showSuccess } from "../utils/toast";
+import Loader from "../utils/loaders/loader2";
 
 export default function MoodTracker() {
   const [moodLevel, setMoodLevel] = useState(5);
@@ -148,7 +149,7 @@ export default function MoodTracker() {
           onClick={handleSave}
           className={`w-full ${loading ? "bg-indigo-400" : "bg-indigo-500 hover:bg-indigo-600"} py-2 rounded text-white font-semibold transition`}
         >
-          {loading ? "Saving..." : "Save Mood"}
+      Save Mood
         </button>
       </div>
 
@@ -160,7 +161,7 @@ export default function MoodTracker() {
         <div className="flex justify-center items-center px-4 py-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
             {loading ? (
-              <p className="text-white text-center col-span-full">Loading moods...</p>
+              <div className="text-white text-center col-span-full"><Loader/></div>
             ) : moods?.length > 0 ? (
               <AnimatePresence>
                 {[...moods].reverse().map((mood) => (
