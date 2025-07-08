@@ -4,7 +4,6 @@ MoodSync is a modern fullstack application designed to help users track their **
 ---
 
 ## screenshot
-- SignUp
 - ### 📝 Sign Up
 
 <p align="center">
@@ -12,7 +11,11 @@ MoodSync is a modern fullstack application designed to help users track their **
 </p>
 
 <p align="center"><i>✨ Clean and responsive Sign Up UI with TailwindCSS and Framer Motion</i></p>
-![image](https://github.com/user-attachments/assets/fb7ec26c-4c93-4a87-a4ba-07060df0f406)
+
+- ### 📝 Log in
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1769624e-228b-499b-a177-397553c3a888" width="600" alt="Sign Up Screenshot">
+</p>
 ![image](https://github.com/user-attachments/assets/1769624e-228b-499b-a177-397553c3a888)
 ![MoodSync-Habits-Tracker (1)](https://github.com/user-attachments/assets/b1c73f0d-39c8-4bfd-a50f-e9b427bcefa5)
 ![Screenshot 2025-07-08 125838](https://github.com/user-attachments/assets/426794fe-38e3-42f3-8539-d60ee7a31b80)
