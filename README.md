@@ -56,4 +56,3 @@ MoodSync is a modern fullstack application designed to help users track their **
 - JWT tokens are issued upon login
 - Tokens auto-expire after defined TTL
 - Expired or invalid tokens auto-redirect users to `/login`
-- Protected routes via `get_current_user` in FastAPI
